@@ -29,3 +29,20 @@ then
 ```psql
 \dt
 ```
+
+## Install sqlc
+Run the following command to see if /snap/bin is in your PATH:
+```bash
+echo $PATH
+```
+
+For zsh, add the following line to your ~/.zshrc file:
+```bash
+export PATH=$PATH:/snap/bin
+```
+Restart shell
+
+## Init sqlc
+```bash
+sqlc init
+```
